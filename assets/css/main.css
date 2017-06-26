@@ -27,6 +27,9 @@
 		line-height: 1;
 	}
 	
+	h1{
+		color: green;
+	}
 	
 	.border-rainbow{
       margin: auto;
@@ -39,6 +42,7 @@
 
 	  border-image-slice: 1;
 	}
+	
 	
 	#grad {
 	  background: red; /* For browsers that do not support gradients */
@@ -1735,6 +1739,7 @@
 
 	p {
 		margin: 0 0 2rem 0;
+		color: #423B47 !important;
 	}
 
 		p.major {
@@ -1756,6 +1761,7 @@
 	h1 {
 		font-size: 3.5rem;
 		line-height: 1.2;
+		color: #F68A1C !important;
 	}
 
 	h2 {
@@ -2479,6 +2485,8 @@
 		border-radius: 4px;
 		display: inline-block;
 		position: relative;
+		max-width: 75%;
+    	max-height: 75%;
 	}
 
 		.image img {
