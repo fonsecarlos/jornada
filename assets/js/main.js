@@ -15,6 +15,31 @@
 		xxsmall: '(max-width: 360px)'
 	});
 	
+	$(".fa-leaf").each(function(index) {
+		
+		switch(index%6) {
+		    case 0:
+		        $(this).css("color", "#E41E26");
+		        break;
+		    case 1:
+		        $(this).css("color", "#F68C1F");
+		        break;
+		    case 2:
+		        $(this).css("color", "#F9EC12");
+		        break;
+		    case 3:
+		        $(this).css("color", "#0C8040");
+		        break;
+		    case 4:
+		        $(this).css("color", "#3D5FAB");
+		        break;
+		    case 5:
+		        $(this).css("color", "#732A85");
+		        break;
+		    default:
+		        $(this).css("color", "black")
+		}
+	});
 	
 	//Adicionando código nosso
 	var acc = document.getElementsByClassName("accordion");

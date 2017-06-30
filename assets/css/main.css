@@ -33,10 +33,26 @@
 	
 	
 	/*Nossas classes*/
-	.border-rainbow{
+	.fa-leaf {
+	  color: pink;
+	}
+	
+	.border-left-rainbow{
       margin: auto;
 	  
 	  border-left: 10px solid transparent;
+
+	  -moz-border-image: -moz-linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+	  -webkit-border-image: -webkit-linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+	  border-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+
+	  border-image-slice: 1;
+	}
+	
+	.border-right-rainbow{
+      margin: auto;
+	  
+	  border-right: 10px solid transparent;
 
 	  -moz-border-image: -moz-linear-gradient(red,orange,yellow,green,blue,indigo,violet);
 	  -webkit-border-image: -webkit-linear-gradient(red,orange,yellow,green,blue,indigo,violet);
