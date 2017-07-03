@@ -18,6 +18,9 @@
 		vertical-align: baseline;
 	}
 	
+	.background-folhas{
+		background-image: url("../../images/IMG1.psd");
+	}
 	
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
