@@ -18,6 +18,12 @@
 		vertical-align: baseline;
 	}
 	
+	.image-parceiros{
+		background-color: transparent !important;
+		max-height: 2000px !important;
+		height: auto !important;
+	}
+	
 	.background-folhas{
 		background-image: url("../../images/IMG1.psd");
 	}
