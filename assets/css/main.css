@@ -17,16 +17,38 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+	 .arvore{
+	 	object-position:center !important;
+	 }
+	/*.inner-footer{*/
+	/*	padding-top: 0px !important;*/
+	/*}*/
 	
 	.image-parceiros{
 		background-color: transparent !important;
-		max-height: 2000px !important;
-		height: auto !important;
+		width:auto !important;
+		height:150px !important;
+		
+		margin: auto !important;
 	}
 	
-	.background-folhas{
-		background-image: url("../../images/IMG1.psd");
+	.article-parceiros{
+		background-color: transparent !important;
+		max-height: 150px !important;
+		width: auto !important;
+		margin: auto !important;
 	}
+	
+	/*.background-folhas{
+		background: url("../../images/footer.png") no-repeat;
+		background-size: cover;
+	}*/
+	
+	.fimPagina{
+		text-align: center;
+	}
+	
+
 	
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
