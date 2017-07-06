@@ -20,14 +20,14 @@
 	 .arvore{
 	 	object-position:center !important;
 	 }
-	/*.inner-footer{*/
-	/*	padding-top: 0px !important;*/
-	/*}*/
+	.inner-footer{
+		padding-top: 0px !important;
+	}
 	
 	.image-parceiros{
 		background-color: transparent !important;
 		width:auto !important;
-		height:150px !important;
+		height: auto; !important;
 		
 		margin: auto !important;
 	}
@@ -39,10 +39,11 @@
 		margin: auto !important;
 	}
 	
-	/*.background-folhas{
+	.background-folhas{
 		background: url("../../images/footer.png") no-repeat;
 		background-size: cover;
-	}*/
+		margin-top: 50px;
+	}
 	
 	.fimPagina{
 		text-align: center;
