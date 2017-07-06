@@ -2526,6 +2526,10 @@
 		max-width: 75%;
     	max-height: 75%;
 	}
+	
+	.image-praca-estacao { 
+		width: 45% !important;
+	}
 
 		.image img {
 			display: block;

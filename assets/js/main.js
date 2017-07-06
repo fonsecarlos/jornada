@@ -15,9 +15,11 @@
 		xxsmall: '(max-width: 360px)'
 	});
 	
+    var d = new Date();
+    var n = d.getSeconds();
 	$(".fa-leaf").each(function(index) {
 		
-		switch(index%6) {
+		switch((n + index)%6) {
 		    case 0:
 		        $(this).css("color", "#E41E26");
 		        break;
@@ -25,7 +27,7 @@
 		        $(this).css("color", "#F68C1F");
 		        break;
 		    case 2:
-		        $(this).css("color", "#F9EC12");
+		        $(this).css("color", "#FFD500");
 		        break;
 		    case 3:
 		        $(this).css("color", "#0C8040");
