@@ -17,6 +17,21 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+	
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+	
 	 .arvore{
 	 	object-position:center !important;
 	 }
@@ -84,6 +99,18 @@
 	  -moz-border-image: -moz-linear-gradient(red,orange,yellow,green,blue,indigo,violet);
 	  -webkit-border-image: -webkit-linear-gradient(red,orange,yellow,green,blue,indigo,violet);
 	  border-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+
+	  border-image-slice: 1;
+	}
+	
+	.border-right-rainbow-reverse{
+      margin: auto;
+	  
+	  border-right: 10px solid transparent;
+
+	  -moz-border-image: -moz-linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+	  -webkit-border-image: -webkit-linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+	  border-image: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
 
 	  border-image-slice: 1;
 	}
