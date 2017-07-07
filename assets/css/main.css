@@ -31,9 +31,39 @@
         width: 100% !important;
         height: 100% !important;
     }
+	.botaoJornada{
+		background:url(../../images/arvorejornada.png) no-repeat center center;
+		background-size:cover;
+	    cursor:pointer;
+	    border:none;
+	    width:180px !important;
+	    height:200px !important;
+	    border: none important;
+	    
+	    box-shadow: 0 0 0 0 !important;
+	}
 	
+	.botoes{
+		text-align: center;
+	}
+	
+	.redesParada{
+		text-align:center;
+		margin-bottom:0px !important;
+	}
+	
+	.botaoParada{
+		background:url(../../images/arvoreparada.png) no-repeat;
+		background-size:cover;
+	    cursor:pointer;
+	    border:none;
+	    width:180px !important;
+	    height:200px !important;
+	    margin-left:20px;
+	    box-shadow: 0 0 0 0 !important;
+	}
 	 .arvore{
-	 	object-position:center !important;
+	 	object-position: center center !important;
 	 }
 	.inner-footer{
 		padding-top: 0px !important;
@@ -54,6 +84,10 @@
 		margin: auto !important;
 	}
 	
+	.footerFolhas{
+		height:200px;
+		margin-top:0px !important;
+	}
 	.background-folhas{
 		background: url("../../images/footer.png") no-repeat;
 		background-size: cover;
