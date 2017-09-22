@@ -18,6 +18,25 @@
 		vertical-align: baseline;
 	}
 	
+	#logo{
+	    display: block;
+    	margin: auto;
+    	max-width: 100%;
+   		 height: auto;
+
+	}
+	.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+	.texto{
+		text-align: justify;
+    	text-justify: inter-word;
+    	margin-left: 10%;
+    	margin-right: 10%;
+    	margin-top: 10%;
+	}
+	
 	.textoEsq{
 		text-align: left !important;
 	}
