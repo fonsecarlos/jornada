@@ -1,77 +1,73 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Contribua</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
 
 
-<h2> Parceiros </h2>
-						<!-- Gallery -->
-							<div class="gallery style2 medium lightbox onscroll-fade-in">
-								<article>
-									<a href="" class="image">
-										<img src="images/parceiros/fmc_pbh_big.png" alt="Fundação Municipal de Cultura e Prefeitura de Belo Horizonte" />
-									</a>
+	<body>
+		<!-- Wrapper -->
+		<div id="wrapper" class="divided">
+			<!-- One -->
+			<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right border-left-rainbow">
+				<div class="content">
+					<h1>Faça sua doação</h1>
+					<p>
+						<h5> Para doações do Brasil: </h5>
 
-								</article>
-								<article>
-									<a href="" class="image">
-										<img src="images/parceiros/bdmg.png" alt="" />
-									</a>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/03.jpg" class="image">
-										<img src="images/parceiros/sinpro.png" alt="" />
-									</a>
-								</article>
-								<article>
-									<a href="" class="image">
-										<img src="images/parceiros/contee.png" alt="" />
-									</a>
-								</article>
-								<article>
-									<a href="" class="image">
-										<img src="images/parceiros/sindrede.png" alt="" />
-									</a>
+						Razão Social: CELLOS MG - CENTRO DE LUTA PELA LIVRE ORIENTACAO SEXUAL DE MINAS GERAIS
+						Banco: CAIXA ECONÔMICA FEDERAL
+						Agência: 0083
+						Conta Corrente: 00004038-7
+						CNPJ: 06.889.005/0001-01
 
-								</article>
-								<article>
-									<a href="images/gallery/fulls/06.jpg" class="image">
-										<img src="images/gallery/thumbs/06.jpg" alt="" />
-									</a>
-	
-								</article>
-								<article>
-									<a href="images/gallery/fulls/07.jpg" class="image">
-										<img src="images/gallery/thumbs/07.jpg" alt="" />
-									</a>
+		</p>
+		<p>
+			<h5> Para doações de outros países:</h5>
 
-								</article>
-								<article>
-									<a href="images/gallery/fulls/08.jpg" class="image">
-										<img src="images/gallery/thumbs/08.jpg" alt="" />
-									</a>
+			In favor of Caixa Econômica Federal.
+			Swift Code: CEFXBRSP
+			For Further Credit to: CELLOS MG - CENTRO DE LUTA PELA LIVRE ORIENTACAO SEXUAL DE MINAS
+			Branch number: 0083
+			Account number: 00004038-7
+			IBAM – BR31 0036 0305 0008 3000 0040 387C 1
+			CNPJ: 06.889.005/0001-01
+				</p>
 
-								</article>
-								<article>
-									<a href="images/gallery/fulls/09.jpg" class="image">
-										<img src="images/gallery/thumbs/09.jpg" alt="" />
-									</a>
+					<ul class="actions vertical">
+						<li><a href="#atracoes" class="button big wide smooth-scroll-middle">Atrações</a></li>
+						<li><a href="./index.html" class="button big wide smooth-scroll-middle">Voltar</a></li>
+					</ul>
+				</div>
+				<div class="image" id="teste">
+					<img class="img-responsive" src="images/arvoreparada.png" alt="Parada BH 2017" />
+				</div>
+			</section>
 
-								</article>
-								<article>
-									<a href="images/gallery/fulls/10.jpg" class="image">
-										<img src="images/gallery/thumbs/10.jpg" alt="" />
-									</a>
+			<div id="footer"></div>
 
-								</article>
-								<article>
-									<a href="images/gallery/fulls/11.jpg" class="image">
-										<img src="images/gallery/thumbs/11.jpg" alt="" />
-									</a>
+		</div>
 
-								</article>
-								<article>
-									<a href="images/gallery/fulls/12.jpg" class="image">
-										<img src="images/gallery/thumbs/12.jpg" alt="" />
-									</a>
+	</body>
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	 <script>
 
-								</article>
-							</div>
-
-					</section>
+			$( function(){
+			 $("#footer").load("footer.html");
+		 });
+	 </script>
+</html>
