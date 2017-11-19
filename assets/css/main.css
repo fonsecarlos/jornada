@@ -17,7 +17,7 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-	
+
 	#logo{
 	    display: block;
     	margin: auto;
@@ -36,11 +36,11 @@
     	margin-right: 10%;
     	margin-top: 10%;
 	}
-	
+
 	.textoEsq{
 		text-align: left !important;
 	}
-	
+
     .google-maps {
         position: relative;
         padding-bottom: 75%; // This is the aspect ratio
@@ -62,19 +62,19 @@
 	    width:180px !important;
 	    height:200px !important;
 	    border: none important;
-	    
+
 	    box-shadow: 0 0 0 0 !important;
 	}
-	
+
 	.botoes{
 		text-align: center;
 	}
-	
+
 	.redesParada{
 		text-align:center;
 		margin-bottom:0px !important;
 	}
-	
+
 	.botaoParada{
 		background:url(../../images/arvoreparada.png) no-repeat;
 		background-size:cover;
@@ -91,22 +91,22 @@
 	.inner-footer{
 		padding-top: 0px !important;
 	}
-	
+
 	.image-parceiros{
 		background-color: transparent !important;
 		width:auto !important;
 		height: auto !important;
-		
+
 		margin: auto !important;
 	}
-	
+
 	.article-parceiros{
 		background-color: transparent !important;
 		max-height: 150px !important;
 		width: auto !important;
 		margin: auto !important;
 	}
-	
+
 	.footerFolhas{
 		height:200px;
 		margin-top:0px !important;
@@ -116,21 +116,21 @@
 		background-size: cover;
 		margin-top: 50px;
 	}
-	
+
 	.fimPagina{
 		text-align: center;
 		margin-bottom: 50px;
 	}
-	
+
 	.footerFolhasBeta {
  		padding-top: 50px;
  	}
-	
+
 	.imagem-footerBeta {
 		width: 100%;
 	}
- 
-	
+
+
 	.botaoParada:hover{
 		background:url(../../images/arvoreparadaHover.png) no-repeat;
 		background-size:cover;
@@ -141,7 +141,7 @@
 	    margin-left:20px;
 	    box-shadow: 0 0 0 0 !important;
 	}
-	
+
 		.botaoJornada:hover{
  		background:url(../../images/arvorejornadaHover.png) no-repeat center center;
  		background-size:cover;
@@ -150,7 +150,7 @@
  	    width:180px !important;
  	    height:200px !important;
  	    border: none important;
- 	    
+
  	    box-shadow: 0 0 0 0 !important;
  	}
 
@@ -161,14 +161,14 @@
 	body {
 		line-height: 1;
 	}
-	
+
 	h1{
 		color: green;
 	}
-	
+
 	.border-left-rainbow{
       margin: auto;
-	  
+
 	  border-left: 10px solid transparent;
 
 	  -moz-border-image: -moz-linear-gradient(red,orange,yellow,green,blue,indigo,violet);
@@ -177,10 +177,10 @@
 
 	  border-image-slice: 1;
 	}
-	
+
 	.border-right-rainbow{
       margin: auto;
-	  
+
 	  border-right: 10px solid transparent;
 
 	  -moz-border-image: -moz-linear-gradient(red,orange,yellow,green,blue,indigo,violet);
@@ -189,10 +189,10 @@
 
 	  border-image-slice: 1;
 	}
-	
+
 	.border-right-rainbow-reverse{
       margin: auto;
-	  
+
 	  border-right: 10px solid transparent;
 
 	  -moz-border-image: -moz-linear-gradient(violet,indigo,blue,green,yellow,orange,red);
@@ -201,25 +201,25 @@
 
 	  border-image-slice: 1;
 	}
-	
-	
+
+
 	/* Style the buttons that are used to open and close the accordion panel */
 	button.accordion {
 	    transition: 0.4s;
 	    margin-bottom: 25px;
 	}
-	
+
 	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 	button.accordion.active, button.accordion:hover {
-	   
+
 	}
-	
+
 	/* Style the accordion panel. Note: hidden by default */
 	div.panel {
-	    
+
 	    display: none;
 	}
-	
+
 	#grad {
 	  background: red; /* For browsers that do not support gradients */
 	  /* For Safari 5.1 to 6.0 */
@@ -229,7 +229,7 @@
 	  /* For Fx 3.6 to 15 */
 	  background: -moz-linear-gradient(red,orange,yellow,green,blue,indigo,violet);
 	  /* Standard syntax */
-	  background: linear-gradient(red,orange,yellow,green,blue,indigo,violet); 
+	  background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
 	}
 
 	ol, ul {
@@ -2662,10 +2662,11 @@
 		display: inline-block;
 		position: relative;
 		max-width: 75%;
-    	max-height: 75%;
+    max-height: 75%;
+		background: transparent !important;
 	}
-	
-	.image-praca-estacao { 
+
+	.image-praca-estacao {
 		width: 45% !important;
 	}
 

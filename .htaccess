@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+# temporarily disable Varnish
+# to make it easier to test changes
+Header add Cache-Control "max-age=1"
+
+#Alternate default index page
+DirectoryIndex index
+
+RewriteEngine On
+
+# Existing files and directories remain accessible
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+
+</IfModule>
